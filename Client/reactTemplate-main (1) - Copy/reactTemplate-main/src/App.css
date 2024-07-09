@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;}
+
+.auth-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 80%; 
+  max-width: 600px; 
+}
+
+
+.auth-container > * {
+  flex: 1;
+  margin: 0 10px; 
+}
+
+
